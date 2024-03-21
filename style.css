@@ -1,12 +1,8 @@
 .jumbotron {
-  padding-top: 8rem;
-  padding-bottom: 3rem;
-}
-
-.jumbotron {
   background-image: url("asset/gradient-template-background-new-minimalist_483537-4993.jpg");
   background-size: cover;
-  /* background-position: center; */
+  padding-top: 8rem;
+  padding-bottom: 3rem;
 }
 
 #aboutme {
