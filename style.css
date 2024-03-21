@@ -1,0 +1,34 @@
+.jumbotron {
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+}
+
+.jumbotron {
+  background-image: url("/asset/gradient-template-background-new-minimalist_483537-4993.jpg");
+  background-size: cover;
+  /* background-position: center; */
+}
+
+#aboutme {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+#skills {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+#certificate {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+#contactme {
+  background-image: url("asset/faded-gray-background-with-paint-brush-texture_53876-102740.jpg");
+  background-size: cover;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+/* Responsive Design Only */
