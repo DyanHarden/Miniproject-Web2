@@ -26,6 +26,15 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- LINK GFONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="asset/favicon.ico" type="image/x-icon" />
   </head>
   <body id="home">
     <!-- Header -->
@@ -67,15 +76,16 @@
         width="200"
         class="rounded-circle img-thumbnail"
       />
-      <h1 class="display-4 fs-2 fw-bold text-center mt-3">
+      <h1 class="display-4 fs-2 fw-bold text-center fst-italic mt-3">
         Muhammad Dian Nurdiansyah
       </h1>
-      <p class="lead text-center fst-italic text-center">
+      <p class="lead text-center text-center">
         Information System Student | Mulawarman University
       </p>
     </section>
     <!-- End -->
 
+    <!-- Aboutme Section -->
     <section id="aboutme" class="py-5">
       <div class="container">
         <div class="row text-center mb-4">
@@ -83,24 +93,28 @@
             <h2 class="fw-bold mt-4">About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center flex-column flex-md-row">
-          <div class="col-md-6 mb-4">
-            <p class="fs-5 mt-5" style="text-align: justify">
-              I am a student from Mulawarman University. I like to explore new
-              things and I am also a tech enthusiast in the field of computer
-              hardware, especially in overclocking and benchmarking. Since
-              childhood, I've always been curious about how computers work and
-              how technology continues to evolve over time. Currently, I am
-              pursuing a bachelor's degree in information systems, where I am
-              learning about programming, computer networks, databases, and
-              operating systems. So, technology is definitely a part of my life.
-            </p>
-          </div>
-          <div class="col-md-6 mb-4">
-            <!-- Education Section -->
+        <div class="row justify-content-center flex-column">
+          <div class="col-md-6 mb-4 mx-auto">
             <div class="card bg-light shadow-sm">
               <div class="card-body">
-                <h3 class="card-title mb-4 text-center">Education</h3>
+                <p class="fs-5 text-center" style="text-align: justify">
+                  I am a student from Mulawarman University. I like to explore
+                  new things and I am also a tech enthusiast in the field of
+                  computer hardware, especially in overclocking and
+                  benchmarking. Since childhood, I've always been curious about
+                  how computers work and how technology continues to evolve over
+                  time. Currently, I am pursuing a bachelor's degree in
+                  information systems, where I am learning about programming,
+                  computer networks, databases, and operating systems.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Education Section -->
+          <div class="col-md-6 mb-4 mx-auto">
+            <div class="card bg-light shadow-sm">
+              <div class="card-body">
+                <h4 class="card-title mb-4 fw-bold">Education</h4>
                 <div class="mb-4">
                   <h4 class="card-subtitle mb-2 text-muted">
                     Mulawarman University
@@ -122,6 +136,7 @@
         </div>
       </div>
     </section>
+    <!-- End -->
 
     <!-- Skill Section -->
     <div class="container px-4 py-5 shadow-sm" id="skills">
@@ -132,7 +147,7 @@
             <i class="fab fa-microsoft"></i>
           </div>
           <div>
-            <h2>Microsoft 365</h2>
+            <h3>Microsoft 365</h3>
             <p style="text-align: justify">
               I have expertise in using Microsoft 365 (office) to support work
               efficiency in the current industry. Until now, I am still
@@ -145,7 +160,7 @@
             <i class="fas fa-database"></i>
           </div>
           <div>
-            <h2>Database Programming</h2>
+            <h3>Database Programming</h3>
             <p style="text-align: justify">
               I am also interested in exploring the world of Database design and
               programming. I attended several courses on Database programming at
@@ -158,7 +173,7 @@
             <i class="fas fa-id-card"></i>
           </div>
           <div>
-            <h2>UI & UX Design</h2>
+            <h3>UI & UX Design</h3>
             <p style="text-align: justify">
               I am currently deeply passionate about delving into the intricate
               realms of UI and UX design, with a keen focus on honing my
@@ -168,6 +183,7 @@
         </div>
       </div>
     </div>
+    <!-- End -->
 
     <!-- Certification Section -->
     <section id="certificate" class="">
@@ -201,7 +217,7 @@
                 alt="c2"
               />
               <div class="card-body">
-                <p class="card-text text-center">
+                <p class="card-text text-center mt-2">
                   Certificate was obtained on 23th April 2023, By Udemy.
                 </p>
               </div>
@@ -273,10 +289,8 @@
     <!-- End -->
 
     <!-- FOOTER -->
-    <footer class="text-center bg-body-tertiary">
-      <!-- Grid container -->
-      <div class="container pt-4">
-        <!-- Section: Social media -->
+    <footer class="text-center bg-body-tertiary footer-animated">
+      <div class="container pt-4 footer-content">
         <section class="mb-4">
           <!-- Facebook -->
           <a
