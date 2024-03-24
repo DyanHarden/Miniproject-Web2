@@ -30,10 +30,3 @@ body {
   padding-top: 4rem;
   padding-bottom: 3rem;
 }
-
-.footer-animated {
-  background-image: url("asset/faded-gray-background-with-paint-brush-texture_53876-102740.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
