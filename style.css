@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .jumbotron {
   background-image: url("asset/gradient-template-background-new-minimalist_483537-4993.jpg");
   background-size: cover;
@@ -27,4 +31,9 @@
   padding-bottom: 3rem;
 }
 
-/* Responsive Design Only */
+.footer-animated {
+  background-image: url("asset/faded-gray-background-with-paint-brush-texture_53876-102740.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
